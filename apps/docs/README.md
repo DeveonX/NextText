@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/create-next-app).
+# NextText
 
-## Getting Started
+NextText is a real-time chat application that allows users to communicate anonymously. Users can create and join rooms or participate in a global chat. It's a great way to connect with others without the need for account creation or login.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Real-time chat**: Messages are sent and received in real-time. You can see the conversation as it unfolds.
+- **Anonymous**: No need to create an account or login. Just choose a nickname and start chatting.
+- **Create and join rooms**: Want a more private conversation? Create a room and invite others to join. Or you can join existing rooms.
+- **Global chat**: Not sure who to chat with? Join the global chat and start a conversation with anyone online.
+- **No message history**: For privacy reasons, previous message history is not stored. Once you leave the chat, the messages are gone.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## How to Use
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Open the NextText app.
+2. Choose a nickname.
+3. If you want to chat in a room, create a new one or join an existing one. Or you can join the global chat.
+4. Start chatting!
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load Inter, a custom Google Font.
+## Disclaimer
 
-## Learn More
+NextText is intended for fun, anonymous conversations. Please respect others and do not share sensitive personal information. Remember, the chat does not store message history, so once you leave, the messages are gone.
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+We welcome contributions to NextText. If you have a feature request, bug report, or want to improve the app, please feel free to open an issue or submit a pull request.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+NextText is open source software [licensed as MIT](LICENSE).
