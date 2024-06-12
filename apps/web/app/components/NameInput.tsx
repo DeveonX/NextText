@@ -1,7 +1,7 @@
 "use client";
 import { useName } from "../../Providers/NameProvider";
 
-export const NameInput = () => {
+export const NameInput = ({className} : {className ?: string}) => {
   const { name, setName } = useName();
 
   return (
@@ -11,8 +11,8 @@ export const NameInput = () => {
       onChange={(e) => {
         setName(e.target.value);
       }}
-      className="text-black text-lg rounded-md p-1"
-      placeholder="Enter your name"
+      className={"text-black rounded-md p-1 sm:text-sm lg:text-lg w-full max-w-xs overflow-auto" + className}
+      placeholder="Name"
     />
   );
 };

@@ -26,7 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <MessageProvider>
             <SocketProvider>
               <NameProvider>
-                <div className="absolute top-0 z-[-2] min-h-screen w-full bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)]">
+                <div className=" top-0 z-[-2] min-h-screen w-fit lg:w-full bg-[#000000] bg-[radial-gradient(#ffffff33_1px,#00091d_1px)]">
                   <Navbar />
                   {children}
                   <Footer />
