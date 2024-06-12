@@ -52,7 +52,7 @@ export const SocketProvider = ({ children }: SocketProviderProps)=>{
   }, [socket])
 
   useEffect(()=>{
-    const socket = io("http://next-text-server.vercel.app")
+    const socket = io("https://next-text-server.vercel.app")
     setSocket(socket)
     socket.on("connect", ()=>{
       console.log("Connected")
