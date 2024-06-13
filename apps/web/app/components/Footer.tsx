@@ -23,7 +23,7 @@ const Footer = () => {
                           <Link href="https://github.com/DeveonX" className="hover:underline ">Github</Link>
                       </li>
                       <li>
-                          <Link href="#" className="hover:underline">Discord ~ madpikachu4</Link>
+                          <Link href="#" className="hover:underline">Discord</Link>
                       </li>
                   </ul>
               </div>
